@@ -19,7 +19,7 @@
                 </tr>
             @empty
                 <tr>
-                    <td colspan="3">Nenhum repositório encontrado!</td>
+                    <td colspan="3" class="text-center">Nenhum repositório encontrado!</td>
                 </tr>
             @endforelse
         </tbody>

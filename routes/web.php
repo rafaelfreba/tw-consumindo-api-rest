@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CursoController;
 use App\Http\Controllers\GithubController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/github/buscar', [GithubController::class, 'buscar'])->name('buscar');
+Route::get('/curso/create', [CursoController::class, 'create'])->name('curso.create');
