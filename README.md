@@ -1,2 +1,3 @@
-# tw-consumindo-api-rest
-Projeto inerente ao curso LARAVEL - Consumindo APIs Rest da Treinaweb
+# TW-CONSUMINDO-API-REST
+
+Projeto inerente ao curso LARAVEL - Consumindo APIs Rest da Treinaweb.
