@@ -21,3 +21,7 @@ Route::get('/', function () {
 
 Route::get('/github/buscar', [GithubController::class, 'buscar'])->name('buscar');
 Route::get('/curso/create', [CursoController::class, 'create'])->name('curso.create');
+Route::get('/curso/update', [CursoController::class, 'update'])->name('curso.update');
+Route::get('/curso/update', [CursoController::class, 'update'])->name('curso.update');
+Route::get('/curso/list', [CursoController::class, 'list'])->name('curso.list');
+Route::get('/curso/show', [CursoController::class, 'show'])->name('curso.show');
